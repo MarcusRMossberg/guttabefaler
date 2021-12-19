@@ -1,0 +1,45 @@
+POST http://localhost:3003/api/users/
+Content-Type: application/json
+
+{
+    "username": "filip",
+    "password": "padssword",
+    "name": "Filip"
+}
+
+
+###
+
+
+POST http://localhost:3003/api/tasks/
+Content-Type: application/json
+
+{
+    "title": "Task 2",
+    "info": "nøyaktig det du tror"
+}
+
+
+###
+PUT http://localhost:3003/api/tasks/61b75cec040582c6a1470be9
+Content-Type: application/json
+
+{
+    
+  
+    "userId": "61b75175574c48c21a3bbf3d"
+
+}
+
+###
+
+
+
+POST http://localhost:3003/api/login/
+Content-Type: application/json
+
+{
+    "username": "filip",
+    "password": "padssword"
+    
+}
